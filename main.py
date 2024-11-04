@@ -48,6 +48,7 @@ if __name__ == "__main__":
 
             print(f"The {package_name} package is available.")
             return package
+
         except ImportError:
             print(f"Could not find the {package_name} package. Installing ...")
             install_package(package_name)
@@ -154,13 +155,13 @@ if __name__ == "__main__":
 
         print(f"Streaming {mode_name} ...")
 
-        with NamedTemporaryFile(suffix=".ogg", delete=True) as temp_file:
-            audio_segment.export(temp_file.name, format="opus")
+        with NamedTemporaryFile(suffix=".ogg", delete=True) as temporary_file:
+            audio_segment.export(temporary_file.name, format="opus")
             stream_command = [
                 "ffmpeg",
                 "-re",
                 "-i",
-                temp_file.name,
+                temporary_file.name,
                 "-c:a",
                 "libopus",
                 "-content_type",
