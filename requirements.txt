@@ -1,0 +1,5 @@
+# By Abdullah As-Sadeed
+
+Pillow
+pydub
+pysstv
