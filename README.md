@@ -31,7 +31,7 @@ A Python project that transmits images using 19 SSTV (Slow Scan Television) mode
 ## Usage
 
 ```sh
-python main.py <image_path> <icecast_host> <icecast_port> <icecast_password>
+python3.14 main.py <image_path> <host> <port> <password>
 ```
 
 ## Dependencies
