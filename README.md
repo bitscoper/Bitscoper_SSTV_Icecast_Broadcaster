@@ -40,3 +40,8 @@ python3.14 main.py <image_path> <host> <port> <password>
 - [Pillow](https://github.com/python-pillow/Pillow)
 - [PySSTV](https://github.com/dnet/pySSTV)
 - [pydub](https://github.com/jiaaro/pydub)
+
+## Notes
+
+- I write commit messages in Title Case and past tense, leaving out articles to keep them concise while still showing details.
+- I reuploaded the repository to clean up the commit history, but this is unlikely to happen again.
