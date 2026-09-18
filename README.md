@@ -4,6 +4,8 @@
 
 A Python project that transmits images using 19 SSTV (Slow Scan Television) modes with VOX functionality through Icecast in Ogg Opus format with dynamic mount points.
 
+[![No AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg)](https://github.com/bitscoper/Bitscoper_SSTV_Icecast_Broadcaster#notes)
+
 </div>
 
 ## SSTV Modes
@@ -45,3 +47,4 @@ python3.14 main.py <image_path> <host> <port> <password>
 
 - I write commit messages in Title Case and past tense, leaving out articles to keep them concise while still showing details.
 - I reuploaded the repository to clean up the commit history, but this is unlikely to happen again.
+- I later PGP-signed all my commits, so they show a later date.
